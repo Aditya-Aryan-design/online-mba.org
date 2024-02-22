@@ -5,7 +5,7 @@ import { memo } from "react"
 
 const MainUniversityDetails = () => {
   return (
-    <div className="py-8 px-10 flex flex-wrap">
+    <div className="py-8 px-3 flex flex-wrap text-center">
       <h2 className="sectionHeading text-center w-screen">Top universities for online MBA BBA BCA and MCA</h2>
       {
         mainUniversityData.map((e,i)=>{

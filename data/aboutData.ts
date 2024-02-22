@@ -1,0 +1,6 @@
+export default {
+    image1:"/about1.jpg",
+    image2:"/about2.jpg",
+    article1: "At OnlineMBA, we're passionate about helping people develop their skills and offering expert guidance on education. We focus on online learning and distance education. Our aim is to fulfill the increasing demand for professionals who excel in their fields and are well-educated. As an authorized enrollment partner, we work closely with leading online universities to provide a diverse range of management and executive programs tailored for busy professionals. Our team comprises experienced industry professionals and academics dedicated to providing high-quality education customized to meet your specific needs.",
+    article2: "Start your career journey with expert guidance from our counselors at OnlineMBA, who will help you choose the most suitable courses from top universities. Boost your career prospects by enrolling in courses that provide cutting-edge, relevant skill sets customized to your professional growth. OnlineMBA's Career Solutions supports you every step of the way, from counseling to admission, offering comprehensive assistance as your university information center."
+}

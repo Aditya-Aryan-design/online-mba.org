@@ -1,7 +1,6 @@
 export default {
-    sectionTitle:"Online MBA BBA MCA BCA admission Consultant in pune with Zero Consultancy fee",
-    mainTitle:"Online MBA admission in best university",
-    desc:"Hi If you are working professional and you want to continue your education its hard to regular class online MBA ,BBA , MCA or BCA is one of the best choice . You can take admission with NAAC A++ university. So if you wish to continue you degree call us. Our consultancy service is free of cost , you do not have to pay any extra fee apart from course fee.",
+    mainTitle:"Your Path to Success: Secure Online MBA Admission in Leading Universities",
+    desc:"Hello! If you're a working professional aiming to further your education, attending regular classes can be challenging. Opting for an online MBA, BBA, MCA, or BCA program is an excellent solution. You can enroll in NAAC A++ accredited universities. If you're interested in pursuing your degree, reach out to us. Our consultancy service is completely free of charge, and you won't incur any additional fees apart from the course fees.",
     image:"/mba-admission1.jpg",
-    button:"Any Query Contact us"
+    button:"Contact us"
 }

@@ -1,11 +1,9 @@
 export default {
     title: "Free consultancy",
     points: [
-        "If you Have any question regarding course , career, admission process colleges and universities feel free we have free consultancy session for you. You can visit our office or fill the form or WhatsApp we are here to provide details knowledge of your queries.",
-        "One and half hour session for queries",
-        "Consultancy service is free of cost. You don’t have to pay any consultancy fee before or after the admission.",
-        "Details about course and universities",
-        "Full information about all your queries",
+        `If you have any questions regarding courses, careers, admission processes, colleges, or universities, feel free to reach out. We offer free consultancy sessions for your convenience. You can visit our office, fill out a form, or message us on WhatsApp. We're here to provide detailed knowledge to address all your queries.`,
+
+        `Our consultancy sessions typically last for one and a half hours, ensuring ample time to address your concerns thoroughly. And remember, our consultancy service is entirely free of cost. There's no need to pay any consultancy fee before or after admission.`,
         "For any question you can fill the form or whatsApp 9503648778"
 
     ]

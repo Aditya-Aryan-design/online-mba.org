@@ -10,6 +10,7 @@ const MainForm = () => {
   const [email, setEmail] = useState("")
   const [phone, setPhone] = useState("")
   const [course, setCourse] = useState("OnlineMBA")
+  const [univercity, setUnivercity] = useState("Dr.D.Y.PatilUniversity")
   const [err, setErr] = useState(true)
   const [msg, setMsg] = useState("")
 
@@ -19,10 +20,10 @@ const MainForm = () => {
     
     try {
       const res = await emailjs.send("service_7t9otim","template_mqytsfo",{
-        name,email,phone,course
+        name,email,phone,course,univercity
       },{publicKey:"-TP_H6z9wVE4hM3Eb"})
 
-      console.log(res);
+    
       if(!res){
         
         setMsg("Oops, some error accurd!")
@@ -72,6 +73,13 @@ const MainForm = () => {
             <option value="OnlineBBA">Online BBA</option>
             <option value="OnlineMCA">Online MCA</option>
             <option value="OnlineBCA">Online BCA</option>
+        </select>
+
+        <select name="course" className="inp" value={univercity} onChange={(e)=>setUnivercity(e.target.value)}>
+        <option value="Dr.D.Y.PatilUniversity">Dr. D. Y. Patil University</option>
+            <option value="AmityUniversity">Amity University</option>
+            <option value="ManipalUniversity">Manipal University</option>
+            <option value="SureshGyanVihar University">Suresh GyanVihar University</option>
         </select>
       </div>
 

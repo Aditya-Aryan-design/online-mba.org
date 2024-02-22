@@ -8,8 +8,5 @@ export default [
     },{
         title:"Connect Us",
         link:"/connect"
-    },{
-        title:"Ask Queries",
-        link:"/askqueries"
     }
 ]

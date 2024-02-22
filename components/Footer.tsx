@@ -3,7 +3,7 @@ import { memo } from "react"
 
 const Footer = () => {
   return (
-    <footer className="body-font bg-zinc-800">
+    <footer className="body-font bg-orange-950">
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <div className="flex title-font font-medium items-center md:justify-start justify-center">
 

@@ -1,9 +1,9 @@
 export default {
-    title:"We Help you for online MBA admission and complete your course from best college / universities in india",
+    title:"Empowering Your Future: Online MBA Admission Assistance with India's Finest Colleges",
 
-    desc1:"With More than 18 Years of field of IT I always Notice that there is lot of professionals having very good knowledge in Technical field but feel difficulties in career growth due to lack of higher degree. Because of their job they can not attend regular college so we are here to assist them for admission in BBA MBA BCA and MCA. This course is online regular and offer by UGC recognise NAAC A++ or A+ university. This program Helps you to achieve degree in higher education that helps you achieve you career Goal",
+    desc1:"With over 18 years of experience in the IT field, I've observed that many professionals possess excellent technical knowledge but face challenges in advancing their careers due to the absence of higher degrees. Because of their job commitments, attending a traditional college becomes difficult. That's why we're here to support them in enrolling for BBA, MBA, BCA, and MCA programs. These courses are offered online by UGC-recognized universities with NAAC A++ or A+ accreditation. This program enables you to earn a higher education degree, aiding you in reaching your career goals.",
 
-    desc2:"We are excited to introduce our comprehensive Online MBA courses designed to empower professionals like you in advancing your career to new heights. As a trusted consultant in the field of online education, we understand the evolving landscape of business and the increasing demand for flexible, accessible, and high-quality education.",
+    desc2:"We're thrilled to present our extensive range of Online MBA courses, tailored to empower professionals like yourself to reach new career heights. As seasoned consultants in the online education sphere, we recognize the changing dynamics of business and the growing need for flexible, accessible, and top-tier education.",
 
     img1: "/mba-admission3.jpeg",
     img2: "/mba-admission6.jpeg",
