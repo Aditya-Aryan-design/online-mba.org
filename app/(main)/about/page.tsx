@@ -1,6 +1,7 @@
 import Image from "next/image"
 import aboutData from "@/data/aboutData"
 import { memo } from "react"
+import KeyItem from "@/components/KeyItem"
 
 const page = () => {
   return (
@@ -41,6 +42,15 @@ const page = () => {
         </div>
         <Image height={400} width={400} alt="ecommerce" className="lg:w-1/3 w-full lg:h-auto h-64 object-cover object-center rounded" src={aboutData.image2}/>
         </div>
+        </div>
+        <hr />
+        <div className="my-3">
+          <p className="text-xl font-bold text-center">Key Highlights</p>
+          <div className="flex flex-wrap justify-center">
+            {
+              aboutData.highlights.map((e,i)=><KeyItem key={i} desc={e}/>)
+            }
+          </div>
         </div>
 </main>
   )

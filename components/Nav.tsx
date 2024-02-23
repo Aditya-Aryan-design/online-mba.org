@@ -20,7 +20,7 @@ function Nav() {
                 {
                     navlinkData.map((e, i) => {
                         return (
-                            <li key={i} className={`px-[2vmin] py-[2vmin] border-b-[0.5vmin] hover:text-orange-600 ${path === e.link ? "text-orange-600 border-white" : "border-transparent text-gray-300"}`}><Link href={e.link}>{e.title}</Link></li>
+                            <Link key={i} href={e.link}><li className={`px-[2vmin] py-[2vmin] border-b-[0.5vmin] hover:bg-zinc-950 ${path === e.link ? "text-orange-600 border-white" : "border-transparent text-gray-300"}`}>{e.title}</li></Link>
                         )
                     })
                 }

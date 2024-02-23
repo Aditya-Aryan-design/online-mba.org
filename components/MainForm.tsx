@@ -19,9 +19,9 @@ const MainForm = () => {
   
     
     try {
-      const res = await emailjs.send("service_7t9otim","template_mqytsfo",{
+      const res = await emailjs.send("service_w6cvjlt","template_9zcch3c",{
         name,email,phone,course,univercity
-      },{publicKey:"-TP_H6z9wVE4hM3Eb"})
+      },{publicKey:"rZx2nD2tV6fx042R8"})
 
     
       if(!res){
@@ -49,7 +49,7 @@ const MainForm = () => {
 
   return (
     <section className="text-gray-600 body-font relative">
-  <div className="absolute inset-0 bg-gray-300">
+  <div className="absolute inset-0 bg-orange-50">
 
     <iframe width="100%" height="100%" title="map" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" style={{filter: "grayscale(0.5) contrast(1.2) opacity(0.4)"}}></iframe>
 

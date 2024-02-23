@@ -21,9 +21,9 @@ const page = () => {
   
     
     try {
-      const res = await emailjs.send("service_7t9otim","template_mqytsfo",{
+      const res = await emailjs.send("service_w6cvjlt","template_9zcch3c",{
         name,email,phone,course,univercity
-      },{publicKey:"-TP_H6z9wVE4hM3Eb"})
+      },{publicKey:"rZx2nD2tV6fx042R8"})
 
       console.log(res);
       
