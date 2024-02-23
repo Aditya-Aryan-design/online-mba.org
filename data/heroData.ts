@@ -1,6 +1,6 @@
 export default {
-    mainTitle:"Your Path to Success: Secure Online MBA Admission in Leading Universities",
-    desc:"Hello! If you're a working professional aiming to further your education, attending regular classes can be challenging. Opting for an online MBA, BBA, MCA, or BCA program is an excellent solution. You can enroll in NAAC A++ accredited universities. If you're interested in pursuing your degree, reach out to us. Our consultancy service is completely free of charge, and you won't incur any additional fees apart from the course fees.",
+    mainTitle:"Welcome to OnlineMBA - Your Gateway to Success!",
+    desc:"Looking to pursue an MBA in Pune? Interested in admissions at DY Patil University, Pune? Want to explore Amity's MBA admission criteria or Manipal's online MBA programs? Look no further! At OnlineMBA, we're your premier educational consultant in Pune, offering comprehensive guidance and support for your higher education journey. Whether you're a working professional seeking MBA admission or aspiring to pursue BBA or MCA, we've got you covered. Why choose online admission? It's the perfect choice for busy professionals like yourself, offering flexibility and convenience without compromising on quality education. Plus, with options like MBA in IT, Finance, HR, or Sales, you can tailor your program to your career goals.Explore our range of online MBA, BBA, MCA, and BCA programs in Pune. Partnered with renowned universities like DY Patil, Amity, Manipal, and Suresh Gyan Vihar University, we ensure top-notch education and seamless admissions.Don't wait any longer to kickstart your career journey. Take the first step towards success with OnlineMBA today!",
     image:"/mba-admission.jpg",
-    button:"Contact us"
+    button:"Apply Now"
 }

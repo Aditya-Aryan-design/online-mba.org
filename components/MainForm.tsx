@@ -1,7 +1,9 @@
 "use client"
-import { memo, useRef, useState } from "react"
+import { memo, useState } from "react"
 import FormButton from "./FormButton"
 import emailjs from "@emailjs/browser"
+import dynamic from "next/dynamic"
+const Map = dynamic(async() => await import('@/components/Map'), { ssr: false })
 
 
 const MainForm = () => {
@@ -51,7 +53,7 @@ const MainForm = () => {
     <section className="text-gray-600 body-font relative">
   <div className="absolute inset-0 bg-orange-50">
 
-    <iframe width="100%" height="100%" title="map" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" style={{filter: "grayscale(0.5) contrast(1.2) opacity(0.4)"}}></iframe>
+    <Map />
 
   </div>
 

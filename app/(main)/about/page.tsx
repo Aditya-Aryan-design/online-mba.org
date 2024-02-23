@@ -5,14 +5,18 @@ import KeyItem from "@/components/KeyItem"
 
 const page = () => {
   return (
-    <main className="text-gray-600 body-font overflow-hidden max-w-[30rem] m-auto lg:max-w-[110rem] flex flex-col">
+    <main className="text-gray-600 body-font overflow-hidden max-w-[40rem] m-auto lg:max-w-[150rem] flex flex-col">
 
         <h1 className="sectionHeading mt-5 text-center">About <span className="text-orange-600 font-bold">OnlineMBA</span></h1>
 
   <div className="py-10 mx-auto px-5">
-    <div className="lg:w-4/5 mx-auto flex flex-wrap">
+    <div className="lg:w-5/6 mx-auto flex flex-wrap">
+
+      <div className="lg:w-1/2 w-full flex justify-center items-center">
+      <Image height={400} width={400} alt="" className="h-auto w-full object-center rounded-3xl shadow-xl" src={aboutData.image1}/>
         
-      <Image height={400} width={400} alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src={aboutData.image1}/>
+      </div>
+        
       <div className="lg:w-1/2 text-center lg:text-start w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
 
         
@@ -31,7 +35,7 @@ const page = () => {
     <div className="lg:w-4/5 mx-auto flex flex-wrap-reverse justify-center items-center">
         
       
-      <div className="lg:w-1/2 text-center lg:text-end w-full lg:pr-10 lg:py-6 mt-6 lg:mt-0">
+      <div className="lg:w-1/2 text-center lg:text-end w-full lg:pr-10 mt-6 lg:mt-0">
 
         
         <p className="leading-relaxed lg:text-lg">{aboutData.article2}</p>
@@ -40,7 +44,7 @@ const page = () => {
 
         </div>
         </div>
-        <Image height={400} width={400} alt="ecommerce" className="lg:w-1/3 w-full lg:h-auto h-64 object-cover object-center rounded" src={aboutData.image2}/>
+        <Image height={400} width={400} alt="ecommerce" className="lg:w-1/3 w-full lg:h-auto h-64 object-cover object-center rounded-full shadow-lg" src={aboutData.image2}/>
         </div>
         </div>
         <hr />
